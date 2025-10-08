@@ -1,0 +1,48 @@
+/* This is to help me see the divs */
+/*
+div{
+    border: solid black 2px;
+}
+*/
+
+.first-section {
+    background-color: #1F2937;
+}
+
+#header1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#subheader1, a{
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.first-division{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.content-one{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-placeholder{
+    display: flex;
+}

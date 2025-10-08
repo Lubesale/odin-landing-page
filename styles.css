@@ -4,9 +4,19 @@ div{
     border: solid black 2px;
 }
 */
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
 
 .first-section {
     background-color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 #header1{
@@ -29,6 +39,7 @@ div{
 .header{
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 }
 
 
@@ -36,13 +47,21 @@ div{
     display: flex;
     justify-content: space-evenly;
     gap: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .content-one{
     display: flex;
     flex-direction: column;
+    max-width: 50%;
 }
 
 .image-placeholder{
     display: flex;
+    width: 50%;
+}
+
+.sign-up-button{
+    
 }

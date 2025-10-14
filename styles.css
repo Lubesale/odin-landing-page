@@ -36,6 +36,12 @@ p{
     color: #F9FAF8;
 }
 
+.image-text{
+    text-align: center;
+    height: fit-content;
+    color: #F9FAF8;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -60,13 +66,19 @@ p{
 .image-placeholder{
     display: flex;
     width: 50%;
+    background-color: rgb(110, 123, 136);
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up-button{
     border-radius: 12px;
+    border: 0cm;
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: 900;
     font-size: 15px;
     flex-basis: 0%;
+    max-width: 150px;
+    margin-top: 8px;
 }

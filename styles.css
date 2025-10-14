@@ -1,9 +1,21 @@
 /* This is to help me see the divs */
+
 /*
 div{
     border: solid black 2px;
 }
 */
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+/* FIRST SECTION AND HEADER*/
+/*---------------------------*/
+
 *{
     font-family: "Roboto", sans-serif;
 }
@@ -82,3 +94,44 @@ p{
     max-width: 150px;
     margin-top: 8px;
 }
+
+/* SECOND SECTION*/
+/*---------------*/
+
+.second-section{
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-content: space-between;
+}
+
+.info-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.second-section-maintext{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.info-image-one, .info-image-two, .info-image-three, .info-image-four{
+    border: solid #538ae2 4px;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
+
+.image-texts{
+    color: rgb(168, 168, 168);
+}
+

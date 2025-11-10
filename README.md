@@ -1,2 +1,2 @@
 # odin-landing-page
-Project for the Flexbox part of Odin Project
+Image for section two created by Deni Iqbal from pexels.com

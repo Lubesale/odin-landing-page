@@ -48,6 +48,7 @@ p{
 #subheader1, a{
     font-size: 18px;
     color: #E5E7EB;
+    text-align:left;
 
 }
 
@@ -79,6 +80,7 @@ p{
 
 .content-one{
     display: flex;
+    padding-right: 15px;
     flex: 1 1 0;
     flex-direction: column;
 }
@@ -136,8 +138,9 @@ p{
 .info-image-one, .info-image-two, .info-image-three, .info-image-four{
     border: solid #538ae2 4px;
     border-radius: 12px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
     background-image: url(./Images/background_image.jpg);
     background-size: cover;
     background-position: center;
@@ -146,6 +149,7 @@ p{
 
 .image-texts{
     color: rgb(168, 168, 168);
+    text-align: center;
 }
 
 /*THIRD SECTION*/
@@ -155,7 +159,7 @@ p{
     justify-content: center;
     background-color: #E5E7EB;
     flex:1 1 0;
-    padding: 60px;
+    padding: 80px;
 }
 
 .testimonial{

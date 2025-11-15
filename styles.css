@@ -176,3 +176,57 @@ p{
     font-weight: bold;
 }
 
+/*FOURTH SECTION*/
+
+.fourth_section{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.banner{
+    background-color: #3882F6;
+    border-radius: 12px;
+    width: 900px;
+    height: 100px;
+    padding: 20px 90px;
+    display: flex;
+    gap: 80px;
+}
+
+.banner_texts{
+    align-self: center;
+    justify-self: center;
+}
+
+.banner_headtext{
+    font-weight: bold;
+    color: #E5E7EB;
+    font-size: 25px;
+}
+
+.banner_subtext{
+    color: #E5E7EB;
+}
+
+.banner_button{
+    display: flex;
+    align-self: center;
+    height: 50px;
+    padding-left: 100px;
+}
+
+.action_button{
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    flex-grow: 1;
+    font-size: 20px;
+}
+
